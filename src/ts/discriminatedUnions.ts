@@ -22,4 +22,4 @@ const obj: Vehicle = {
     make: 'honda',
     model: 'blah',
     //doors: 2  // <- ERROR!
-};
+};r

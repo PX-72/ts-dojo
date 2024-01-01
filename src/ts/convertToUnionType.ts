@@ -1,5 +1,3 @@
-
-
 // as const
 const routes = {
     home: '/',
@@ -9,7 +7,7 @@ const routes = {
 
 // Without 'as const', keys would only be strings, but with 'as const' the actual values are used.
 
-type Route = (typeof routes)[keyof  typeof routes];
+type Route = (typeof routes)[keyof typeof routes];
 
 
 const routes2 = {
@@ -19,4 +17,4 @@ const routes2 = {
 } as const;
 
 // not needed as it is already readonly
-type ReadOnlyRoutes = Readonly<typeof routes2>
+type ReadOnlyRoutes = Readonly<typeof routes2>;

@@ -6,3 +6,4 @@ const obj = {
     model: 'blah',
     //doors: 2  // <- ERROR!
 };
+r;

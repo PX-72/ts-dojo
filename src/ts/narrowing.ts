@@ -28,7 +28,7 @@ function logValue(x: Date | string) {
 
 // type predicate
 function isFish(n: string | number): n is number {
-    return (n as number).toFixed !== undefined;
+    return typeof n === 'number';
 }
 
 // discriminated unions

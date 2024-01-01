@@ -22,6 +22,6 @@ function logValue(x) {
 }
 // type predicate
 function isFish(n) {
-    return n.toFixed !== undefined;
+    return typeof n === 'number';
 }
 // then check for kind
